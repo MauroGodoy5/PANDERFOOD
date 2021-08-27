@@ -1,0 +1,20 @@
+.general{
+
+    text-align: center;
+    height: 100vh;
+    background-color:rgb(255, 255, 255);
+  }
+  
+  .titulos{
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+  
+  .descripciones{
+    color: rgb(0, 0, 0);
+    }
+  
+    .subtitulos{
+      color: rgb(0, 0, 0);
+    }
+  

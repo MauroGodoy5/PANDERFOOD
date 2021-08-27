@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/mipedido.css">
+</head>
+<body>
+    <header class="header">
+                    
+        <div class="container2">
+    <span style="--l: 'P';">P</span>
+    <span style="--l: 'E';">E</span>
+    <span style="--l: 'D';">D</span>
+    <span style="--l: 'I';">I</span>
+    <span style="--l: 'D';">D</span>
+    <span style="--l: 'O';">O</span>
+            
+            
+        </div>
+        
+    </header>
+
+    <aside class="aside">
+    </aside>
+    
+    <div class="icono-menu">
+        <img src="img/menu-negro.png"   id="icono-menu">
+    </div>
+    
+    <div class="cont-menu active" id="menu">
+        
+        <ul class="menuu">
+            <hr color="yellow">
+                    <li><a href="index.html">INICIO</a></li>
+                    
+                    <hr color="yellow">
+                    <li><a href="mi pedido.html">MI PEDIDO</a></li>
+                
+                    <hr color="yellow">
+                    <li><a href="sucursales.html">SUCURSALES</a></li>
+                    
+                    <hr color="yellow">
+                    <li class="submenu">PRODUCTOS 
+                                <ul>
+                                    
+                                    <li><a href="hamburguesas.html">HAMBURGUESAS</a></li>
+                                    <hr>
+                                    <li><a href="lomitos.html">LOMITOS</a></li>
+                                    <hr>
+                                    <li><a href="papas fritas.html">PAPAS FRITAS</a></li>
+                                    <hr>
+                                    <li><a href="bebidas.html">BEBIDAS</a></li>
+                                    <hr>
+                                </ul>
+                    </li>
+                    
+                    <hr color="yellow">
+                    <li class="submenu">CONTACTOS
+                                <ul>
+                                    <li>INSTAGRAM</li>
+                                    <hr>
+                                    <li>WHATSAPP</li>
+                                    <hr>
+                                </ul>
+                    </li>
+                    <hr color="yellow">
+                    
+                    
+        </ul>
+        
+    </div>
+    <script src="js/menu-desplegable.js"></script>
+
+    <form action="enviar.php" method="post">
+        <h2>DATOS DEL CLIENTE</h2>
+        <fieldset>
+            <label>NOMBRE COMPLETO</label>
+            <br>
+        <label>Nombre/s:</label>
+        <INPUT TYPE="text" 
+        NAME="nombre">
+        <label>apellido:</label>
+        <INPUT TYPE="text" 
+        NAME="apellido">
+        <br>
+        <label>CORREO ELECTRONICO</label>
+        <br>
+        <label>email:</label>
+        <input type="text" name="email">
+        <br>
+        <label>NUMERO DE CELULAR</label>
+        <br>
+        <label>codigo de area:</label>
+        <input type="number" name="numero-area">
+        <label>-</label>
+        <label>numero:</label>
+        <input type="number" name="numero">
+        <br>
+            <label>DIRECCION COMPLETA</label>
+            <br>
+            <label>calle:</label>
+            <INPUT TYPE="text" 
+            NAME="calle">
+            <label>numero:</label>
+            <input type="text" name="numero">
+            <label>barrio:</label>
+            <input type="text" name="barrio">
+            <label>ciudad:</label>
+            <input type="text" name="ciudad">
+            <label>codigo postal:</label>
+            <input type="number" name="codigopostal">
+            <label>lote:</label>
+            <input type="number" name="lote">
+            <label>manzana:</label>
+            <input type="number" name="manzana">
+            <label>piso:</label>
+            <input type="number" name="piso">
+            <br>
+            <label>ACLARACION DEL DOMICILIO</label>
+            <br>
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                
+              </div>
+                </TEXTAREA>
+        </fieldset>
+        <br>
+
+
+        <H2>DATOS DEL PEDIDO</H2>
+        <fieldset>
+
+          <span>
+            <div data-wrapper-react="true" class="form-product-item-detail">
+              <input type="checkbox" class="form-checkbox  form-product-input" id="input_15_1014" name="q15_misProductos[][id]" value="1014">
+              <label for="input_15_1014" class="form-product-container">
+                <span data-wrapper-react="true">
+                  <span class="form-product-name" id="product-name-input_15_1014">
+                    CLASICA
+                  </span>
+                  <span class="form-product-details">
+                    <span data-wrapper-react="true">
+                      $
+                      <span id="input_15_1014_price">0.50</span>
+                    </span>
+                  </span>
+                </span>
+                <div class="form-product-description" id="product-name-description-input_15_1014">
+                </div>
+              </label>
+                            <label> CANTIDAD </label>
+                            <select>
+                              <option value="1"> 1 </option>
+                              <option value="2"> 2 </option>
+                              <option value="3"> 3 </option>
+                              <option value="4"> 4 </option>
+                              <option value="5"> 5 </option>
+                              <option value="6"> 6 </option>
+                              <option value="7"> 7 </option>
+                              <option value="8"> 8 </option>
+                              <option value="9"> 9 </option>
+                              <option value="10"> 10 </option>
+                            </select>
+
+                                <label> TOPPINGS </label>
+                                <select>
+                                  <option value="1"> cebolla </option>
+                                  <option value="2"> bacon </option>
+                                  <option value="3"> cheddar </option>
+                                </select>
+                          <br>
+                          
+                            <span>
+                              Item subtotal:
+                            </span>
+                            <span>
+                              $
+                              <span>
+                                0.00
+                              </span>
+
+                      
+                      
+                          <br>
+                          <br>
+                          <span class="form-sub-label-container" style="vertical-align:top">
+                            <label class="form-sub-label" for="input_15_quantity_1014_0" style="min-height:13px" aria-hidden="false" id="label_input_15_quantity_1014_0"> Quantity </label>
+                            <select class="form-dropdown" name="q15_misProductos[special_1014][item_0]" id="input_15_quantity_1014_0">
+                              <option value="1"> 1 </option>
+                              <option value="2"> 2 </option>
+                              <option value="3"> 3 </option>
+                              <option value="4"> 4 </option>
+                              <option value="5"> 5 </option>
+                              <option value="6"> 6 </option>
+                              <option value="7"> 7 </option>
+                              <option value="8"> 8 </option>
+                              <option value="9"> 9 </option>
+                              <option value="10"> 10 </option>
+                              
+                            </select>
+                          </span>
+                          <br>
+                          <span class="form-special-subtotal">
+                            <span class="form-item-subtotal">
+                              Item subtotal:
+                            </span>
+                            <span data-wrapper-react="true">
+                              $
+                              <span id="input_15_1014_item_subtotal">3.00</span>
+                            </span>
+                          </span>
+                        </div>
+                      </span>
+                      <br>
+                      <span class="form-product-item hover-product-item " categories="non-categorized" pid="1010">
+                        <div data-wrapper-react="true" class="form-product-item-detail">
+                          <input type="checkbox" class="form-checkbox  form-product-input" id="input_15_1010" name="q15_misProductos[][id]" value="1010">
+                          <label for="input_15_1010" class="form-product-container">
+                            <span data-wrapper-react="true">
+                              <span class="form-product-name" id="product-name-input_15_1010">
+                                CHEDDAR
+                              </span>
+                              <span class="form-product-details">
+                                <span data-wrapper-react="true">
+                                  $
+                                  <span id="input_15_1010_price">
+                                    0.50
+                                  </span>
+                                </span>
+                              </span>
+                            </span>
+                            <div class="form-product-description" id="product-name-description-input_15_1010">
+                            </div>
+                          </label>
+                          <br>
+                          <br>
+                          <span class="form-sub-label-container" style="vertical-align:top">
+                            <label class="form-sub-label" for="input_15_quantity_1010_0" style="min-height:13px" aria-hidden="false" id="label_input_15_quantity_1010_0"> Quantity </label>
+                            <select class="form-dropdown" name="q15_misProductos[special_1010][item_0]" id="input_15_quantity_1010_0">
+                              <option value="1"> 1 </option>
+                              <option value="2"> 2 </option>
+                              <option value="3"> 3 </option>
+                              <option value="4"> 4 </option>
+                              <option value="5"> 5 </option>
+                              <option value="6"> 6 </option>
+                              <option value="7"> 7 </option>
+                              <option value="8"> 8 </option>
+                              <option value="9"> 9 </option>
+                              <option value="10"> 10 </option>
+                              
+                            </select>
+                          </span>
+                          <br>
+                          <span class="form-special-subtotal">
+                            <span class="form-item-subtotal">
+                              Item subtotal:
+                            </span>
+                            <span data-wrapper-react="true">
+                              $
+                              <span id="input_15_1010_item_subtotal">
+                                0.00
+                              </span>
+                            </span>
+                          </span>
+                        </div>
+                      </span>
+                      <br>
+                      <span class="form-product-item hover-product-item " categories="non-categorized" pid="1007">
+                        <div data-wrapper-react="true" class="form-product-item-detail">
+                          <input type="checkbox" class="form-checkbox  form-product-input" id="input_15_1007" name="q15_misProductos[][id]" value="1007">
+                          <label for="input_15_1007" class="form-product-container">
+                            <span data-wrapper-react="true">
+                              <span class="form-product-name" id="product-name-input_15_1007">
+                                1/4 LIBRA
+                              </span>
+                              <span class="form-product-details">
+                                <span data-wrapper-react="true">
+                                  $
+                                  <span id="input_15_1007_price">
+                                    0.50
+                                  </span>
+                                </span>
+                              </span>
+                            </span>
+                            <div class="form-product-description" id="product-name-description-input_15_1007">
+                            </div>
+                          </label>
+                          <br>
+                          <br>
+                          <span class="form-sub-label-container" style="vertical-align:top">
+                            <label class="form-sub-label" for="input_15_quantity_1007_0" style="min-height:13px" aria-hidden="false" id="label_input_15_quantity_1007_0"> Quantity </label>
+                            <select class="form-dropdown" name="q15_misProductos[special_1007][item_0]" id="input_15_quantity_1007_0">
+                              <option value="1"> 1 </option>
+                              <option value="2"> 2 </option>
+                              <option value="3"> 3 </option>
+                              <option value="4"> 4 </option>
+                              <option value="5"> 5 </option>
+                              <option value="6"> 6 </option>
+                              <option value="7"> 7 </option>
+                              <option value="8"> 8 </option>
+                              <option value="9"> 9 </option>
+                              <option value="10"> 10 </option>
+                              
+                            </select>
+                          </span>
+                          <br>
+                          <span class="form-special-subtotal">
+                            <span class="form-item-subtotal">
+                              Item subtotal:
+                            </span>
+                            <span data-wrapper-react="true">
+                              $
+                              <span id="input_15_1007_item_subtotal">
+                                0.00
+                              </span>
+                            </span>
+                          </span>
+                        </div>
+                      </span>
+                      <br>
+                      <span class="form-product-item hover-product-item " categories="non-categorized" pid="1006">
+                        <div data-wrapper-react="true" class="form-product-item-detail">
+                          <input type="checkbox" class="form-checkbox  form-product-input" id="input_15_1006" name="q15_misProductos[][id]" value="1006">
+                          <label for="input_15_1006" class="form-product-container">
+                            <span data-wrapper-react="true">
+                              <span class="form-product-name" id="product-name-input_15_1006">
+                                ZANAHORIA - PAQ. 4LB
+                              </span>
+                              <span class="form-product-details">
+                                <span data-wrapper-react="true">
+                                  $
+                                  <span id="input_15_1006_price">
+                                    1.00
+                                  </span>
+                                </span>
+                              </span>
+                            </span>
+                            <div class="form-product-description" id="product-name-description-input_15_1006">
+                            </div>
+                          </label>
+                          <br>
+                          <br>
+                          <span class="form-sub-label-container" style="vertical-align:top">
+                            <label class="form-sub-label" for="input_15_quantity_1006_0" style="min-height:13px" aria-hidden="false" id="label_input_15_quantity_1006_0"> Quantity </label>
+                            <select class="form-dropdown" name="q15_misProductos[special_1006][item_0]" id="input_15_quantity_1006_0">
+                              <option value="1"> 1 </option>
+                              <option value="2"> 2 </option>
+                              <option value="3"> 3 </option>
+                              <option value="4"> 4 </option>
+                              <option value="5"> 5 </option>
+                              <option value="6"> 6 </option>
+                              <option value="7"> 7 </option>
+                              <option value="8"> 8 </option>
+                              <option value="9"> 9 </option>
+                              <option value="10"> 10 </option>
+                              
+                            </select>
+                          </span>
+                          <br>
+                          <span class="form-special-subtotal">
+                            <span class="form-item-subtotal">
+                              Item subtotal:
+                            </span>
+                            <span data-wrapper-react="true">
+                              $
+                              <span id="input_15_1006_item_subtotal">
+                                0.00
+                              </span>
+                            </span>
+                          </span>
+                        </div>
+                      </span>
+                      <br>
+                      <span class="form-product-item hover-product-item " categories="non-categorized" pid="1008">
+                        <div data-wrapper-react="true" class="form-product-item-detail">
+                          <input type="checkbox" class="form-checkbox  form-product-input" id="input_15_1008" name="q15_misProductos[][id]" value="1008">
+                          <label for="input_15_1008" class="form-product-container">
+                            <span data-wrapper-react="true">
+                              <span class="form-product-name" id="product-name-input_15_1008">
+                                PEPINO - 3 UNIDADES
+                              </span>
+                              <span class="form-product-details">
+                                <span data-wrapper-react="true">
+                                  $
+                                  <span id="input_15_1008_price">
+                                    1.00
+                                  </span>
+                                </span>
+                              </span>
+                            </span>
+                            <div class="form-product-description" id="product-name-description-input_15_1008">
+                            </div>
+                          </label>
+                          <br>
+                          <br>
+                          <span class="form-sub-label-container" style="vertical-align:top">
+                            <label class="form-sub-label" for="input_15_quantity_1008_0" style="min-height:13px" aria-hidden="false" id="label_input_15_quantity_1008_0"> Quantity </label>
+                            <select class="form-dropdown" name="q15_misProductos[special_1008][item_0]" id="input_15_quantity_1008_0">
+                              <option value="1"> 1 </option>
+                              <option value="2"> 2 </option>
+                              <option value="3"> 3 </option>
+                              <option value="4"> 4 </option>
+                              <option value="5"> 5 </option>
+                              <option value="6"> 6 </option>
+                              <option value="7"> 7 </option>
+                              <option value="8"> 8 </option>
+                              <option value="9"> 9 </option>
+                              <option value="10"> 10 </option>
+                              
+                            </select>
+                          </span>
+                          <br>
+                          <span class="form-special-subtotal">
+                            <span class="form-item-subtotal">
+                              Item subtotal:
+                            </span>
+                            <span data-wrapper-react="true">
+                              $
+                              <span id="input_15_1008_item_subtotal">
+                                0.00
+                              </span>
+                            </span>
+                          </span>
+                        </div>
+                      </span>
+                      <br>
+                      <span class="form-product-item hover-product-item " categories="non-categorized" pid="1005">
+                        <div data-wrapper-react="true" class="form-product-item-detail">
+                          <input type="checkbox" class="form-checkbox  form-product-input" id="input_15_1005" name="q15_misProductos[][id]" value="1005">
+                          <label for="input_15_1005" class="form-product-container">
+                            <span data-wrapper-react="true">
+                              <span class="form-product-name" id="product-name-input_15_1005">
+                                CEBOLLA COLORADA - LB.
+                              </span>
+                              <span class="form-product-details">
+                                <span data-wrapper-react="true">
+                                  $
+                                  <span id="input_15_1005_price">
+                                    0.80
+                                  </span>
+                                </span>
+                              </span>
+                            </span>
+                            <div class="form-product-description" id="product-name-description-input_15_1005">
+                            </div>
+                          </label>
+                          <br>
+                          <br>
+                          <span class="form-sub-label-container" style="vertical-align:top">
+                            <label class="form-sub-label" for="input_15_quantity_1005_0" style="min-height:13px" aria-hidden="false" id="label_input_15_quantity_1005_0"> Quantity </label>
+                            <select class="form-dropdown" name="q15_misProductos[special_1005][item_0]" id="input_15_quantity_1005_0">
+                              <option value="1"> 1 </option>
+                              <option value="2"> 2 </option>
+                              <option value="3"> 3 </option>
+                              <option value="4"> 4 </option>
+                              <option value="5"> 5 </option>
+                              <option value="6"> 6 </option>
+                              <option value="7"> 7 </option>
+                              <option value="8"> 8 </option>
+                              <option value="9"> 9 </option>
+                              <option value="10"> 10 </option>
+                              
+                            </select>
+                          </span>
+                          <br>
+                          <span class="form-special-subtotal">
+                            <span class="form-item-subtotal">
+                              Item subtotal:
+                            </span>
+                            <span data-wrapper-react="true">
+                              $
+                              <span id="input_15_1005_item_subtotal">
+                                0.00
+                              </span>
+                            </span>
+                          </span>
+                        </div>
+                      </span>
+                      <br>
+                      <span class="form-product-item hover-product-item " categories="non-categorized" pid="1003">
+                        <div data-wrapper-react="true" class="form-product-item-detail">
+                          <input type="checkbox" class="form-checkbox  form-product-input" id="input_15_1003" name="q15_misProductos[][id]" value="1003">
+                          <label for="input_15_1003" class="form-product-container">
+                            <span data-wrapper-react="true">
+                              <span class="form-product-name" id="product-name-input_15_1003">
+                                CEBOLLA PERLA - LB
+                              </span>
+                              <span class="form-product-details">
+                                <span data-wrapper-react="true">
+                                  $
+                                  <span id="input_15_1003_price">
+                                    0.80
+                                  </span>
+                                </span>
+                              </span>
+                            </span>
+                            <div class="form-product-description" id="product-name-description-input_15_1003">
+                            </div>
+                          </label>
+                          <br>
+                          <br>
+                          <span class="form-sub-label-container" style="vertical-align:top">
+                            <label class="form-sub-label" for="input_15_quantity_1003_0" style="min-height:13px" aria-hidden="false" id="label_input_15_quantity_1003_0"> Quantity </label>
+                            <select class="form-dropdown" name="q15_misProductos[special_1003][item_0]" id="input_15_quantity_1003_0">
+                              <option value="1"> 1 </option>
+                              <option value="2"> 2 </option>
+                              <option value="3"> 3 </option>
+                              <option value="4"> 4 </option>
+                              <option value="5"> 5 </option>
+                              <option value="6"> 6 </option>
+                              <option value="7"> 7 </option>
+                              <option value="8"> 8 </option>
+                              <option value="9"> 9 </option>
+                              <option value="10"> 10 </option>
+                              
+                            </select>
+                          </span>
+                          <br>
+                          <span class="form-special-subtotal">
+                            <span class="form-item-subtotal">
+                              Item subtotal:
+                            </span>
+                            <span data-wrapper-react="true">
+                              $
+                              <span id="input_15_1003_item_subtotal">
+                                0.00
+                              </span>
+                            </span>
+                          </span>
+                        </div>
+                      </span>
+                      <br>
+                      <span class="form-product-item hover-product-item " categories="non-categorized" pid="1015">
+                        <div data-wrapper-react="true" class="form-product-item-detail">
+                          <input type="checkbox" class="form-checkbox  form-product-input" id="input_15_1015" name="q15_misProductos[][id]" value="1015">
+                          <label for="input_15_1015" class="form-product-container">
+                            <span data-wrapper-react="true">
+                              <span class="form-product-name" id="product-name-input_15_1015">
+                                CEBOLLA BLANCA - PORCION
+                              </span>
+                              <span class="form-product-details">
+                                <span data-wrapper-react="true">
+                                  $
+                                  <span id="input_15_1015_price">
+                                    1.00
+                                  </span>
+                                </span>
+                              </span>
+                            </span>
+                            <div class="form-product-description" id="product-name-description-input_15_1015">
+                            </div>
+                          </label>
+                          <br>
+                          <br>
+                          <span class="form-sub-label-container" style="vertical-align:top">
+                            <label class="form-sub-label" for="input_15_quantity_1015_0" style="min-height:13px" aria-hidden="false" id="label_input_15_quantity_1015_0"> Quantity </label>
+                            <select class="form-dropdown" name="q15_misProductos[special_1015][item_0]" id="input_15_quantity_1015_0">
+                              <option value="1"> 1 </option>
+                              <option value="2"> 2 </option>
+                              <option value="3"> 3 </option>
+                              <option value="4"> 4 </option>
+                              <option value="5"> 5 </option>
+                              <option value="6"> 6 </option>
+                              <option value="7"> 7 </option>
+                              <option value="8"> 8 </option>
+                              <option value="9"> 9 </option>
+                              <option value="10"> 10 </option>
+                              
+                            </select>
+                          </span>
+                          <br>
+                          <span class="form-special-subtotal">
+                            <span class="form-item-subtotal">
+                              Item subtotal:
+                            </span>
+                            <span data-wrapper-react="true">
+                              $
+                              <span id="input_15_1015_item_subtotal">
+                                0.00
+                              </span>
+                            </span>
+                          </span>
+                        </div>
+                      </span>
+                      <br>
+                      <span class="form-product-item hover-product-item " categories="non-categorized" pid="1002">
+                        <div data-wrapper-react="true" class="form-product-item-detail">
+                          <input type="checkbox" class="form-checkbox  form-product-input" id="input_15_1002" name="q15_misProductos[][id]" value="1002">
+                          <label for="input_15_1002" class="form-product-container">
+                            <span data-wrapper-react="true">
+                              <span class="form-product-name" id="product-name-input_15_1002">
+                                COL - PAQUETE
+                              </span>
+                              <span class="form-product-details">
+                                <span data-wrapper-react="true">
+                                  $
+                                  <span id="input_15_1002_price">
+                                    0.50
+                                  </span>
+                                </span>
+                              </span>
+                            </span>
+                            <div class="form-product-description" id="product-name-description-input_15_1002">
+                            </div>
+                          </label>
+                          <br>
+                          <br>
+                          <span class="form-sub-label-container" style="vertical-align:top">
+                            <label class="form-sub-label" for="input_15_quantity_1002_0" style="min-height:13px" aria-hidden="false" id="label_input_15_quantity_1002_0"> Quantity </label>
+                            <select class="form-dropdown" name="q15_misProductos[special_1002][item_0]" id="input_15_quantity_1002_0">
+                              <option value="1"> 1 </option>
+                              <option value="2"> 2 </option>
+                              <option value="3"> 3 </option>
+                              <option value="4"> 4 </option>
+                              <option value="5"> 5 </option>
+                              <option value="6"> 6 </option>
+                              <option value="7"> 7 </option>
+                              <option value="8"> 8 </option>
+                              <option value="9"> 9 </option>
+                              <option value="10"> 10 </option>
+                              
+                            </select>
+                          </span>
+                          <br>
+                          <span class="form-special-subtotal">
+                            <span class="form-item-subtotal">
+                              Item subtotal:
+                            </span>
+                            <span data-wrapper-react="true">
+                              $
+                              <span id="input_15_1002_item_subtotal">
+                                0.00
+                              </span>
+                            </span>
+                          </span>
+                        </div>
+                      </span>
+                      <br>
+                      <span class="form-product-item hover-product-item " categories="non-categorized" pid="1018">
+                        <div data-wrapper-react="true" class="form-product-item-detail">
+                          <input type="checkbox" class="form-checkbox  form-product-input" id="input_15_1018" name="q15_misProductos[][id]" value="1018">
+                          <label for="input_15_1018" class="form-product-container">
+                            <span data-wrapper-react="true">
+                              <span class="form-product-name" id="product-name-input_15_1018">
+                                AJO - LIBRA
+                              </span>
+                              <span class="form-product-details">
+                                <span data-wrapper-react="true">
+                                  $
+                                  <span id="input_15_1018_price">
+                                    1.00
+                                  </span>
+                                </span>
+                              </span>
+                            </span>
+                            <div class="form-product-description" id="product-name-description-input_15_1018">
+                            </div>
+                          </label>
+                          <br>
+                          <br>
+                          <span class="form-sub-label-container" style="vertical-align:top">
+                            <label class="form-sub-label" for="input_15_quantity_1018_0" style="min-height:13px" aria-hidden="false" id="label_input_15_quantity_1018_0"> Quantity </label>
+                            <select class="form-dropdown" name="q15_misProductos[special_1018][item_0]" id="input_15_quantity_1018_0">
+                              <option value="1"> 1 </option>
+                              <option value="2"> 2 </option>
+                              <option value="3"> 3 </option>
+                              <option value="4"> 4 </option>
+                              <option value="5"> 5 </option>
+                              <option value="6"> 6 </option>
+                              <option value="7"> 7 </option>
+                              <option value="8"> 8 </option>
+                              <option value="9"> 9 </option>
+                              <option value="10"> 10 </option>
+                              
+                            </select>
+                          </span>
+                          <br>
+                          <span class="form-special-subtotal">
+                            <span class="form-item-subtotal">
+                              Item subtotal:
+                            </span>
+                            <span data-wrapper-react="true">
+                              $
+                              <span id="input_15_1018_item_subtotal">
+                                0.00
+                              </span>
+                            </span>
+                          </span>
+                        </div>
+                      </span>
+                      <br>
+                      <span class="form-product-item hover-product-item " categories="non-categorized" pid="1017">
+                        <div data-wrapper-react="true" class="form-product-item-detail">
+                          <input type="checkbox" class="form-checkbox  form-product-input" id="input_15_1017" name="q15_misProductos[][id]" value="1017">
+                          <label for="input_15_1017" class="form-product-container">
+                            <span data-wrapper-react="true">
+                              <span class="form-product-name" id="product-name-input_15_1017">
+                                AJI - LB
+                              </span>
+                              <span class="form-product-details">
+                                <span data-wrapper-react="true">
+                                  $
+                                  <span id="input_15_1017_price">
+                                    0.50
+                                  </span>
+                                </span>
+                              </span>
+                            </span>
+                            <div class="form-product-description" id="product-name-description-input_15_1017">
+                            </div>
+                          </label>
+                          <br>
+                          <br>
+                          <span class="form-sub-label-container" style="vertical-align:top">
+                            <label class="form-sub-label" for="input_15_quantity_1017_0" style="min-height:13px" aria-hidden="false" id="label_input_15_quantity_1017_0"> Quantity </label>
+                            <select class="form-dropdown" name="q15_misProductos[special_1017][item_0]" id="input_15_quantity_1017_0">
+                              <option value="1"> 1 </option>
+                              <option value="2"> 2 </option>
+                              <option value="3"> 3 </option>
+                              <option value="4"> 4 </option>
+                              <option value="5"> 5 </option>
+                              <option value="6"> 6 </option>
+                              <option value="7"> 7 </option>
+                              <option value="8"> 8 </option>
+                              <option value="9"> 9 </option>
+                              <option value="10"> 10 </option>
+                              
+                            </select>
+                          </span>
+                          <br>
+                          <span class="form-special-subtotal">
+                            <span class="form-item-subtotal">
+                              Item subtotal:
+                            </span>
+                            <span data-wrapper-react="true">
+                              $
+                              <span id="input_15_1017_item_subtotal">
+                                0.00
+                              </span>
+                            </span>
+                          </span>
+                        </div>
+                      </span>
+                      <br>
+                      <span class="form-product-item hover-product-item " categories="non-categorized" pid="1016">
+                        <div data-wrapper-react="true" class="form-product-item-detail">
+                          <input type="checkbox" class="form-checkbox  form-product-input" id="input_15_1016" name="q15_misProductos[][id]" value="1016">
+                          <label for="input_15_1016" class="form-product-container">
+                            <span data-wrapper-react="true">
+                              <span class="form-product-name" id="product-name-input_15_1016">
+                                LIMON - PAQ. 25
+                              </span>
+                              <span class="form-product-details">
+                                <span data-wrapper-react="true">
+                                  $
+                                  <span id="input_15_1016_price">
+                                    1.00
+                                  </span>
+                                </span>
+                              </span>
+                            </span>
+                            <div class="form-product-description" id="product-name-description-input_15_1016">
+                            </div>
+                          </label>
+                          <br>
+                          <br>
+                          <span class="form-sub-label-container" style="vertical-align:top">
+                            <label class="form-sub-label" for="input_15_quantity_1016_0" style="min-height:13px" aria-hidden="false" id="label_input_15_quantity_1016_0"> Quantity </label>
+                            <select class="form-dropdown" name="q15_misProductos[special_1016][item_0]" id="input_15_quantity_1016_0">
+                              <option value="1"> 1 </option>
+                              <option value="2"> 2 </option>
+                              <option value="3"> 3 </option>
+                              <option value="4"> 4 </option>
+                              <option value="5"> 5 </option>
+                              <option value="6"> 6 </option>
+                              <option value="7"> 7 </option>
+                              <option value="8"> 8 </option>
+                              <option value="9"> 9 </option>
+                              <option value="10"> 10 </option>
+                              
+                            </select>
+                          </span>
+                          <br>
+                          <span class="form-special-subtotal">
+                            <span class="form-item-subtotal">
+                              Item subtotal:
+                            </span>
+                            <span data-wrapper-react="true">
+                              $
+                              <span id="input_15_1016_item_subtotal">
+                                0.00
+                              </span>
+                            </span>
+                          </span>
+                        </div>
+                      </span>
+                      <br>
+                      <span class="form-product-item hover-product-item " categories="non-categorized" pid="1009">
+                        <div data-wrapper-react="true" class="form-product-item-detail">
+                          <input type="checkbox" class="form-checkbox  form-product-input" id="input_15_1009" name="q15_misProductos[][id]" value="1009">
+                          <label for="input_15_1009" class="form-product-container">
+                            <span data-wrapper-react="true">
+                              <span class="form-product-name" id="product-name-input_15_1009">
+                                MANZANA - PAQ. 5 UNIDADES
+                              </span>
+                              <span class="form-product-details">
+                                <span data-wrapper-react="true">
+                                  $
+                                  <span id="input_15_1009_price">
+                                    1.00
+                                  </span>
+                                </span>
+                              </span>
+                            </span>
+                            <div class="form-product-description" id="product-name-description-input_15_1009">
+                            </div>
+                          </label>
+                          <br>
+                          <br>
+                          <span class="form-sub-label-container" style="vertical-align:top">
+                            <label class="form-sub-label" for="input_15_quantity_1009_0" style="min-height:13px" aria-hidden="false" id="label_input_15_quantity_1009_0"> Quantity </label>
+                            <select class="form-dropdown" name="q15_misProductos[special_1009][item_0]" id="input_15_quantity_1009_0">
+                              <option value="1"> 1 </option>
+                              <option value="2"> 2 </option>
+                              <option value="3"> 3 </option>
+                              <option value="4"> 4 </option>
+                              <option value="5"> 5 </option>
+                              <option value="6"> 6 </option>
+                              <option value="7"> 7 </option>
+                              <option value="8"> 8 </option>
+                              <option value="9"> 9 </option>
+                              <option value="10"> 10 </option>
+                              
+                            </select>
+                          </span>
+                          <br>
+                          <span class="form-special-subtotal">
+                            <span class="form-item-subtotal">
+                              Item subtotal:
+                            </span>
+                            <span data-wrapper-react="true">
+                              $
+                              <span id="input_15_1009_item_subtotal">
+                                0.00
+                              </span>
+                            </span>
+                          </span>
+                        </div>
+                      </span>
+                      <br>
+                      <span class="form-payment-total">
+                        <b>
+                          <span id="total-text">
+                            Total
+                          </span>
+                          &nbsp;
+                          <span class="form-payment-price">
+                            <span data-wrapper-react="true">
+                              $
+                              <span id="payment_total">3.00</span>
+                            </span>
+                          </span>
+                        </b>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </li>
+                
+            </FIELdset>
+
+        </fieldset>
+        <input type="submit" value="enviar pedido">
+        <INPUT TYPE="reset" VALUE="borrar">
+        
+        
+
+    </form>
+
+    <footer class="footer">
+        <P class="desc-footer">Todos los derechos reservado 2021 &copy; </P>
+    </footer>
+</body>
+</html>

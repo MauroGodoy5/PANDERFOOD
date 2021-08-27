@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harlems's</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+
+    </header>
+<aside class="aside">
+        
+</aside> 
+
+    <div class="icono-menu">
+        <img src="/img/menu.png"   id="icono-menu">
+    </div>
+        <div class="cont-menu active" id="menu">
+            <ul class="menu">
+                <li>INICIO</li>
+                <li>MI PEDIDO</li>
+                <li>SUCURSALES</li>
+                                <li>PRODUCTOS
+                                    <ul class="submenu">
+                                        <li>HAMBURGUESAS</li>
+                                        <li>MILANESAS</li>
+                                        <li>PAPAS FRITAS</li>
+                                    </ul>
+                                </li>
+                                <LI>CONTACTOS
+                                    <ul class="submenu">
+                                        <li>INSTAGRAM</li>
+                                        <li>WHATSAPP</li>
+                                    </ul>
+                                </li>
+                                
+                
+            </ul>
+        </div>
+<script src="app.js"></script>
+
+
+
+    <section class="general">
+        <article>
+                            <H1 class="titulos">NOSOTROS</H1>
+                        <p class="descripciones">
+                            Nuestra historia
+                            Harlems, una empresa dedicada a su cliente.
+                            Nuestra historia nace en el año 1983 en Córdoba, Argentina.
+                            El precursor fue Miguel Ángel Alterio, quien decide comprar un pequeño bar llamado “harlems” operado por dos hermanos haciéndose cargo del mismo.
+                            El bar empezó a especializarse en sándwiches y el Lomito (como se denomina en Córdoba al producto más popular de sándwich con bifes de lomo) comenzó a tomar 
+                            protagonismo en los prospectos que lo elegían como un lugar obligado de reunión para amigos y familias, donde cada cliente empezaba a notar desde su elaboración, 
+                            tamaño y sabor algo distintivo con sello propio marcando una diferenciación en el mercado cordobés.
+                        </p>
+        </article>
+
+
+
+        <article>
+            <h1 class="titulos">SUCURSALES</h1>
+            <P class="descripciones">*RUTA 20*BARRIO JARDI</P>
+        </article>
+        <article>
+            <H1 class="titulos">ZONA DE ENTREGA</H1>
+            <h2 class="subtitulos">Ruta 20 y Aledaños</h2>
+                <p class="descripciones">
+                    Villa Adela
+                    Matienzo
+                    Estacion Flores
+                    Ameghino Norte
+                    Ameghino Sur
+                    Los Platanos
+                    Rosedal
+                    Los Naranjos
+                    Juan XXIII
+                    Barrio Parque
+                    San Rafael
+                </p>
+            <h2 class="subtitulos">Barrio Jardin</h2>
+            <P class="descripciones">
+                Maipu
+                Colon
+                Barrio Jardin/Jardin Espinosa
+                Rogelio Martinez
+                Country Jockey
+                Fortin del Pozo
+                Cañuelas Country
+                San Carlos
+                San Pablo
+                Oña
+                Biale Masse
+                Nueva Cordoba
+                Centro
+                General Paz
+                Junior
+                San Fernando
+                Colinas
+                Parque y Residencial Velez Sarfield
+                Ipona
+            </P>
+        </article>
+    </section>
+    
+
+<footer class="footer">
+    <P class="descripciones">Todos los derechos reservado 2021 &copy; </P>
+</footer>
+</body>
+</html> 
